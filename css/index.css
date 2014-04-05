@@ -183,7 +183,18 @@ a:active {
   font-family: 'Gudea', sans-serif;
   position:absolute; 
   top: 500px;
+  padding-left: 30%;
 }
+
+.countdown-article{
+  display:inline-block;
+
+}
+
+#countdowndays, #countdownhrs, #countdownmins, #countdownsecs{
+  color: pink;
+}
+
 /*  Still mostly single-column.
  *  Option to activate grid on small screens.
  *  Two-column layout for .grid-img. */
