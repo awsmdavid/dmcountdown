@@ -1,4 +1,4 @@
-var end = new Date('02/19/2015 10:1 AM');
+var end = new Date('05/19/2015 10:1 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -12,7 +12,7 @@ var end = new Date('02/19/2015 10:1 AM');
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById('countdowndays').innerHTML = 'MARRIED!';
+            document.getElementById('countdown').style.display="none";
 
             return;
         }

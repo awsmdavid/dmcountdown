@@ -181,18 +181,22 @@ a:active {
 #countdown{
   font-size: 32px;
   font-family: 'Gudea', sans-serif;
+  font-weight: 700;
   position:absolute; 
   top: 500px;
-  padding-left: 30%;
+  margin-left: 20%;
+  background-color: white;
+  opacity:.8;
 }
 
 .countdown-article{
   display:inline-block;
-
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 #countdowndays, #countdownhrs, #countdownmins, #countdownsecs{
-  color: pink;
+  color: purple;
 }
 
 /*  Still mostly single-column.
