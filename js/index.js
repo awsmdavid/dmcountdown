@@ -1,4 +1,4 @@
-var end = new Date('05/19/2015 10:1 AM');
+var end = new Date('06/27/2015 10:1 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -12,8 +12,11 @@ var end = new Date('05/19/2015 10:1 AM');
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById('countdown').style.display="none";
-
+            document.getElementById('countdown').innerHTML = "yo";
+            document.getElementById('countdowndays').style.display="none";
+            document.getElementById('countdownhrs').style.display="none";
+            document.getElementById('countdownmins').style.display="none";
+            document.getElementById('countdownsecs').style.display="none";
             return;
         }
         var days = Math.floor(distance / _day);

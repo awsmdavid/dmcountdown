@@ -186,14 +186,12 @@ a:active {
   top: 80%; 
   background-color: white;
   opacity:.7;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
 }
 
 .countdown-article{
   display:inline-block;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 #countdowndays, #countdownhrs, #countdownmins, #countdownsecs{
