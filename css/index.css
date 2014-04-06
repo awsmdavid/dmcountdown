@@ -183,10 +183,11 @@ a:active {
   font-family: 'Gudea', sans-serif;
   font-weight: 700;
   position:absolute; 
-  top: 500px;
-  margin-left: 20%;
+  top: 80%; 
   background-color: white;
-  opacity:.8;
+  opacity:.7;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .countdown-article{
@@ -265,7 +266,7 @@ a:active {
 
   .row-start-small .grid-third,
   .grid-img {
-    width: 33.33333333333%;
+    width: 90%;
   }
 
   .row-start-small .grid-half {
@@ -285,7 +286,7 @@ a:active {
 @media (min-width: 40em) {
   .grid-fourth,
   .grid-img {
-    width: 25%;
+    width: 1000px;
   }
 
   .grid-third {
