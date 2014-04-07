@@ -178,6 +178,65 @@ a:active {
   margin-right: auto;
 }
 
+/* centered*/
+.banner{
+  color:#EFDEFF;
+  font-size: 48px;
+  /*font-family: 'Allura', cursive;*/
+  font-family: 'Alex Brush', cursive;
+  letter-spacing: 3px;
+  /*font-family: 'Gudea', sans-serif;*/
+  position:absolute;   
+  /*background-color: white;*/
+/*  opacity:.5;*/
+  top: 20px;
+  line-height: 40px;
+  margin-left: 30%;
+  -moz-border-top-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+
+  -moz-border-top-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/*.banner{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Gudea', sans-serif;
+  position:absolute;   
+  background-color: white;
+  opacity:.8;
+  top: 20px;
+  line-height: 40px;
+  margin-left: 0;
+  -moz-border-top-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  padding-left: 100px;
+  padding-right: 50px;
+  text-align: center;
+}*/
+
+#date{
+  font-family: 'Alex Brush', cursive;
+  color:white;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 6px;
+}
+
 #countdown{
   font-size: 32px;
   font-family: 'Gudea', sans-serif;
