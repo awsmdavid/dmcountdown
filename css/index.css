@@ -190,11 +190,14 @@ a:active {
   /*background-color: white;*/
 /*  opacity:.5;*/
   top: 20px;
+
+  left: 50%;
+  margin-left: -250px;
+  
   line-height: 40px;
-  margin-left: 26%;
+
   -moz-border-top-right-radius: 15px;
   -moz-border-bottom-right-radius: 15px;
-
   -moz-border-top-left-radius: 15px;
   -moz-border-bottom-left-radius: 15px;
 
@@ -202,9 +205,6 @@ a:active {
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-
-  padding-left: 50px;
-  padding-right: 50px;
   text-align: center;
 }
 
