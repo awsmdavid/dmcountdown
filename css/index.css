@@ -178,84 +178,49 @@ a:active {
   margin-right: auto;
 }
 
-/* centered*/
 .banner{
   color:#EFDEFF;
-  font-size: 48px;
-  /*font-family: 'Allura', cursive;*/
+  font-size: 28px;
   font-family: 'Alex Brush', cursive;
   letter-spacing: 3px;
-  /*font-family: 'Gudea', sans-serif;*/
   position:absolute;   
-  /*background-color: white;*/
-/*  opacity:.5;*/
-  top: 20px;
-
+  top: 5px;
   left: 50%;
-  margin-left: -250px;
-  width: 500px;
-  
-  line-height: 40px;
-
-  -moz-border-top-right-radius: 15px;
-  -moz-border-bottom-right-radius: 15px;
-  -moz-border-top-left-radius: 15px;
-  -moz-border-bottom-left-radius: 15px;
-
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  margin-left: -40%;
+  width: 80%;
+  line-height: 16px;
   text-align: center;
 }
-
-/*.banner{
-  font-size: 32px;
-  font-weight: 700;
-  font-family: 'Gudea', sans-serif;
-  position:absolute;   
-  background-color: white;
-  opacity:.8;
-  top: 20px;
-  line-height: 40px;
-  margin-left: 0;
-  -moz-border-top-right-radius: 15px;
-  -moz-border-bottom-right-radius: 15px;
-
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-
-  padding-left: 100px;
-  padding-right: 50px;
-  text-align: center;
-}*/
 
 #date{
   font-family: 'Alex Brush', cursive;
   color:white;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 20px;
   letter-spacing: 6px;
 }
 
 #countdown{
-  font-size: 32px;
+  font-size: 18px;
   font-family: 'Gudea', sans-serif;
   font-weight: 700;
   position:absolute; 
-  top: 80%; 
+  top: 130px; 
   background-color: white;
   opacity:.7;
 }
 
 .countdown-article{
   display:inline-block;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 
 #countdowndays, #countdownhrs, #countdownmins, #countdownsecs{
   color: purple;
+}
+.grid-full{
+  width: 100%
 }
 
 /*  Still mostly single-column.
@@ -266,6 +231,40 @@ a:active {
     margin-left: -1.4%;
     margin-right: -1.4%;
   }
+  .banner{
+  color:#EFDEFF;
+  font-size: 32px;
+  letter-spacing: 3px;
+  position:absolute;   
+  top: 5px;
+  left: 50%;
+  margin-left: -40%;
+  width: 80%;
+  line-height: 26px;
+}
+
+#date{
+  font-size: 18px;
+  line-height: 10%;
+  letter-spacing: 6px;
+}
+
+#countdown{
+  font-size: 18px;
+  font-family: 'Gudea', sans-serif;
+  font-weight: 700;
+  position:absolute; 
+  top: 190px; 
+  background-color: white;
+  opacity:.7;
+}
+
+.countdown-article{
+  display:inline-block;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
 .gridwidth {
   margin-top: 0;
   margin-left: auto;
@@ -299,7 +298,7 @@ a:active {
 
   .row-start-xsmall .grid-half,
   .grid-img {
-    width: 50%;
+    width: 100%;
   }
 
   .row-start-xsmall .grid-two-thirds {
@@ -314,6 +313,39 @@ a:active {
  *  Option to activate grid on medium screens.
  *  Three-column layout for .grid-img. */
 @media (min-width: 30em) {
+  .banner{
+  color:#EFDEFF;
+  font-size: 36px;
+  letter-spacing: 3px;
+  position:absolute;   
+  top: 5px;
+  left: 50%;
+  margin-left: -40%;
+  width: 80%;
+  line-height: 30px;
+}
+
+#date{
+  font-size: 18px;
+  line-height: 10%;
+  letter-spacing: 6px;
+}
+
+#countdown{
+  font-size: 22px;
+  font-family: 'Gudea', sans-serif;
+  font-weight: 700;
+  position:absolute; 
+  top: 270px; 
+  background-color: white;
+  opacity:.7;
+}
+
+.countdown-article{
+  display:inline-block;
+  padding-right: 5%;
+  padding-left: 5%;
+}
 
   /*  Show grid for small screens */
   .row-start-small .grid-fourth {
@@ -340,6 +372,47 @@ a:active {
 /*  Full 6-column grid.
  *  Four-column layout for .grid-img. */
 @media (min-width: 40em) {
+
+.banner{
+  color:#EFDEFF;
+  font-size: 300%;
+  /*font-family: 'Allura', cursive;*/
+  font-family: 'Alex Brush', cursive;
+  letter-spacing: 3px;
+  /*font-family: 'Gudea', sans-serif;*/
+  position:absolute;   
+  top: 20px;
+  left: 50%;
+  margin-left: -40%;
+  width: 80%;
+  line-height: 40px;
+  text-align: center;
+}
+#date{
+  font-family: 'Gudea', sans-serif;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 10%;
+  letter-spacing: 6px;
+}
+
+
+#countdown{
+  font-size: 32px;
+  font-family: 'Gudea', sans-serif;
+  font-weight: 700;
+  position:absolute; 
+  top: 80%; 
+  background-color: white;
+  opacity:.7;
+}
+
+.countdown-article{
+  display:inline-block;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
   .grid-fourth,
   .grid-img {
     width: 1000px;
