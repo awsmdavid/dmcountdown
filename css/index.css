@@ -172,7 +172,6 @@ a:active {
 
 
 .container {
-  max-width: 80em;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -186,8 +185,8 @@ a:active {
   position:absolute;   
   top: 5px;
   left: 50%;
-  margin-left: -50%;
-  width: 100%;
+  margin-left: -70%;
+  width: 140%;
   line-height: 16px;
   text-align: center;
 }
